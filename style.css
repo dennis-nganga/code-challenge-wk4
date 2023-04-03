@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #F5F5F5;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  section {
+    flex-basis: 48%;
+    margin-bottom: 1rem;
+  }
+  
+  #movie-details {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 1rem;
+  }
+  
+  #poster {
+    flex-basis: 30%;
+    height: 0;
+    padding-bottom: 150%;
+    margin: 0 auto; /* Center the poster */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 10px solid #fff; /* Add a white border to make the poster stand out */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to give the poster depth */
+  }
+  
+  #details {
+    flex-basis: 70%;
+    padding: 0 1rem;
+  }
+  
+  #title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #333; /* Use a dark color for the title to make it stand out */
+  }
+  
+  #runtime,
+  #showtime,
+  #available-tickets {
+    margin-bottom: 0.5rem;
+    color: #555; /* Use a lighter color for the details */
+  }
+  
+  #buy-ticket {
+    background-color: #FF5A5F; /* Use a bright red color for the button */
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  #buy-ticket:hover {
+    background-color: #D4145A; /* Use a darker shade of red on hover */
+  }
+  
+  #buy-ticket:disabled {
+    background-color: #ccc;
+    color: #333;
+    cursor: not-allowed;
+  }
+  
+  #movie-list {
+    border: 1px solid #ccc;
+    padding: 1rem;
+  }
+  
+  #films {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .film {
+    margin-bottom: 0.5rem;
+  }
+  
+  .film a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .film a:hover {
+    text-decoration: underline;
+  }
+  
+  .sold-out {
+    color: #ccc;
+  }
+  
+  

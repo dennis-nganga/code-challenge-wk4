@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Movie Theater</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Movie Theater</h1>
+      <nav>
+        <ul id="films">
+          <!-- Populated by JavaScript -->
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="movie-details">
+        <div id="poster"></div>
+        <div id="details">
+          <h2 id="title"></h2>
+          <p id="runtime"></p>
+          <p id="showtime"></p>
+          <p id="available-tickets"></p>
+          <button id="buy-ticket" disabled>Buy Ticket</button>
+        </div>
+      </section>
+      <section id="movie-list">
+        <h2>Movie List</h2>
+        <ul id="films">
+          <!-- Populated by JavaScript -->
+        </ul>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
+
